@@ -125,7 +125,6 @@ DEPENDENCIES
   execjs
   jquery-rails
   rails (= 3.2.6)
-  rspec (= 2.0.1)
   rspec-rails (= 2.0.1)
   sass-rails (~> 3.2.3)
   sqlite3
