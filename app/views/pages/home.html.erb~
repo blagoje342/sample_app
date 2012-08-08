@@ -5,3 +5,5 @@
     sample application.
   </p>
 
+
+<%= link_to "Sing up now!", '#', :class => "signup_button round" %>
