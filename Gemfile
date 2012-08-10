@@ -26,6 +26,7 @@ gem 'jquery-rails'
 
 group :devolopment do
   gem 'rspec-rails', '2.0.1'
+  gem 'annotate'
 end
   
 group :test do

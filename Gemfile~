@@ -26,10 +26,11 @@ gem 'jquery-rails'
 
 group :devolopment do
   gem 'rspec-rails', '2.0.1'
+  gem 'annotate-models', '1.0.4'
 end
   
 group :test do
-  gem 'rspec-railsr', '2.0.1'
+  gem 'rspec-rails', '2.0.1'
   gem 'webrat', '0.7.1'
 end
 
