@@ -1,16 +1,17 @@
 SampleApp::Application.routes.draw do
 
-
+  resources :users
 
   root :to => 'pages#home'
+  match '/signup',  :to => 'users#new'
   match '/contact', :to => 'pages#contact'
   match '/about',   :to => 'pages#about'
   match '/help',    :to => 'pages#help'
-  match '/signup',  :to => 'users#new'
   
+  get "users/new"
 
-
-   get "users/new"
+#  root_path => '/'
+#  root_url => 'http://localhost:3000'
 
 #  get "pages/home"
 
